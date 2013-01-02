@@ -42,3 +42,4 @@ References:
 * [capistrano-mono-deploy](https://github.com/antonydenyer/capistrano-mono-deploy)
 * [railsless-deploy](https://github.com/leehambley/railsless-deploy/)
 * [capistrano](https://github.com/capistrano/capistrano/wiki)
+* [FastCGI Nginx](http://www.mono-project.com/FastCGI_Nginx)
