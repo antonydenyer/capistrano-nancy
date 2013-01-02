@@ -28,6 +28,7 @@ server{
 }
 ```
 I found that if you did not specify the root correcty then Nancy reports a 404 when hitting the application root.
+I've only had issues with this when serving static files.
 
 Edit config/deploy.rb to point to your server and use the correct user. 
 
