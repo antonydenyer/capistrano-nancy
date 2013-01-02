@@ -21,7 +21,7 @@ Then run
     
 In your nginx config do something like this
 
-```json
+```
 server{
   listen 80;
   server_name localhost;
@@ -36,6 +36,6 @@ server{
 I found that if you did not specify the root correcty then Nancy reports a 404 when hitting the application root.
 
 References:
-[capistrano-mono-deploy](https://github.com/antonydenyer/capistrano-mono-deploy)
-[railsless-deploy](https://github.com/leehambley/railsless-deploy/)
-[capistrano](https://github.com/capistrano/capistrano/wiki)
+* [capistrano-mono-deploy](https://github.com/antonydenyer/capistrano-mono-deploy)
+* [railsless-deploy](https://github.com/leehambley/railsless-deploy/)
+* [capistrano](https://github.com/capistrano/capistrano/wiki)
