@@ -21,14 +21,11 @@ server{
   server_name localhost;
   
   location / {
-    root /home/YOUR_USER/www/current/;
     fastcgi_pass unix:/tmp/SOCK-capistrano-nancy;
     include /etc/nginx/fastcgi_params;
   }
 }
 ```
-I found that if you did not specify the root correcty then Nancy reports a 404 when hitting the application root.
-I've only had issues with this when serving static files.
 
 Edit config/deploy.rb to point to your server and use the correct user. 
 
